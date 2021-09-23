@@ -8,5 +8,4 @@ The Seurat script performs the following tasks on single, merged, or integrated 
 - Module scoring
 
 
-[D7_UMAP.pdf](https://github.com/AnnieCollier/SingleCell/files/7220524/D7_UMAP.pdf)
-[GRHL2_D7_expression.pdf](https://github.com/AnnieCollier/SingleCell/files/7220526/GRHL2_D7_expression.pdf)
+![GRHL2_D7_expression copy](https://user-images.githubusercontent.com/90862478/134574891-45f0b4b0-1607-4b8c-8a06-24eecaa3ad15.png)
