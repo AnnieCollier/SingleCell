@@ -11,6 +11,7 @@ The Seurat script performs the following tasks on single, merged, or integrated 
 
 ![GRHL2_D7_expression](https://user-images.githubusercontent.com/90862478/134575838-55f188ea-24b8-4a81-babe-a901c0332ee8.png)
 
+For Multiome analysis, follow WNN.R to perform Weighted Nearest Neighbor Analysis. This takes into account both RNA and ATAC for each cell. You can also use Integrated_Multiome.R to integrate the data based on RNA, and then output those projection coordinates to the Loupe browser.
 
 Use the CellChat script to perform cell-cell interaction analysis. Using this script you can:
 - Quantify interactions between clusters
