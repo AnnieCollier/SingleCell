@@ -1,0 +1,3 @@
+fastqs,sample,library_type
+/oak/stanford/groups/oro/felix/multiome/GRHL2_Day7/fastq/scRNA,FFR01,Gene Expression
+/oak/stanford/groups/oro/felix/multiome/GRHL2_Day7/fastq/scATAC_R1/FASTQ_FFA01,FFA01,Chromatin Accessibility
