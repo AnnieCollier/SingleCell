@@ -9,7 +9,7 @@ KO.data <- Read10X(data.dir = input_files)
 KO.data <- CreateSeuratObject(counts = KO.data$`Gene Expression`, min.features = 100, min.cells = 5, project = "D7_KO")
 KO.data
 
-#integrate datasets
+#integrate datasets based on RNA expression
 WT_KO_combined <- merge(x = WT1.data,y = GRHL2_KO.data, add.cell.ids = c("WT", "KO"))
 WT_KO_combined[["percent.mt"]] <- PercentageFeatureSet(WT_KO_combined, pattern = "^MT-")
 VlnPlot(WT_KO_combined, features = c("nFeature_RNA", "nCount_RNA", "percent.mt"), ncol = 3)
