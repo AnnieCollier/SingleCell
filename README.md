@@ -1,5 +1,6 @@
 # SingleCell
-All scripts related to 10X Genomics single cell analysis
+All scripts related to 10X Genomics single cell analysis used in Collier et al. 2022
+Mostly adopted from Seurat, Monocle, CellChat, or 10X vignettes
 
 Use the Seurat script to process CellRanger output files. Use the "filtered_feature_bc_matrix" folder found in the "outs" directory of the CellRanger output.
 The Seurat script performs the following tasks on single, merged, or integrated datasets:
